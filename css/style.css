@@ -41,7 +41,7 @@ a{
     font-size: 39px;
     color: #a292b3;
     position: absolute;
-    transform: translate(79px, -41px);
+    transform: translate(79px, 0);
 }
 
 .bg-top{
