@@ -1,10 +1,6 @@
 *{
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
 
 .contrainer{
     max-width: 1020px;
@@ -12,17 +8,18 @@ body{
     margin-right: auto;
 }
 
-.Header-menu{
+body {
+    margin: 0;
+}
+
+.header-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 130px;
 }
 
-ul{
-    list-style: none;
-    align-items: center;
-}
+
 
 a{
     text-decoration: none;
@@ -32,7 +29,17 @@ a{
     position: relative;    
 }
 
-.Header-menu li{
+.header-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-list-item{
     padding-left: 70px;
 }
 
