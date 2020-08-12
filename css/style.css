@@ -12,6 +12,25 @@ body {
     margin: 0;
 }
 
+.main-header{
+    position: relative;
+}
+
+.main-header::after{
+    position: absolute;
+
+    content: "";
+
+    top: 0;
+    left: 0;
+
+    background-color: #a292b3;
+    width: 100%;
+    height: 8px;
+}
+
+
+
 .header-menu{
     display: flex;
     justify-content: space-between;
@@ -49,12 +68,6 @@ a{
     color: #a292b3;
     position: absolute;
     transform: translate(79px, 0);
-}
-
-.bg-top{
-    background-color: #a292b3;
-    width: 100%;
-    height: 8px;
 }
 
 
