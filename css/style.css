@@ -164,24 +164,24 @@ body {
     padding-right: 3px;
 }
 
-.Left-pointer{
+.Pointers button{
+
+    border: none;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
     width: 34px;
     height: 65px;
     background-color: #82699d;
+}
+
+.Left-pointer{
     background-image: url(../img/MainContent/left-pointer.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
 }
 
 .Right-pointer{
-    width: 34px;
-    height: 65px;
-    background-color: #82699d;
     background-image: url(../img/MainContent/right-pointer.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    float: right;
 }
 
 .QT{
