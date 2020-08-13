@@ -388,36 +388,44 @@ body {
 
 
 
-footer{
+.main-footer{
     margin: 0;
     padding: 0;
+
     background-image: url(../img/Footer/bg.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     height: 67px;
-    align-items: center;
 }
 
-
-.bg-bottom{
-    background-color: #a292b3;
-    width: 100%;
-    height: 8px;
-}
-
-.Footer{ 
+.main-footer .contrainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 100%;
 }
 
-.Footer ul{
+.copyright{
+    margin: 0;
+    padding: 0;
+}
+
+.social-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
     display: flex;
 }
 
-.Footer ul li{
-    padding-left: 10px; 
+.social-item{
+    margin-right: 10px;
+}
+
+.social-item:last-child{
+    margin: 0;
 }
 
 
