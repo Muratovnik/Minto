@@ -269,6 +269,7 @@ body {
 .content{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .content-text-headline{
@@ -327,19 +328,23 @@ body {
 
 
 
-.Slogan{
-    margin-top: 20px;
+.slogan{
+    margin: 0;
+    margin-bottom: 20px;
     background-image: url(/img/MainContent/Line.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+
+
     font-size: 23px;
+    line-height: 1.5;
+
 }
 
 
 
 .Labels{
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
