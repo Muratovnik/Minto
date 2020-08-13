@@ -266,7 +266,18 @@ body {
 }
 
 
-.Content__Text{
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text-headline{
+    margin: 20px 0;
+    font-size: 31px;
+    color: #505051;
+}
+
+.content-text{
     margin-left: auto;
     width: 694px;
     font-size: 15px;
@@ -274,9 +285,19 @@ body {
     line-height: 1.7;
 }
 
-.Lorem{
-    font-size: 31px;
-    color: #505051;
+
+
+.content-main-text{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.right{
+    margin: 0;
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+    color: #a3a3a3;
 }
 
 
@@ -285,6 +306,8 @@ body {
     font-size: 13px;
     color: #a3a3a3;
     position: relative;
+
+    padding-right: 30px;
 }
 
 .Read-More::after{
@@ -297,15 +320,9 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(270%, 24%);
+    transform: translate(330%, 45%);
 }
 
-.Right{
-    text-align: right;
-    font-style: italic;
-    font-size: 13px;
-    color: #a3a3a3;
-}
 
 
 
